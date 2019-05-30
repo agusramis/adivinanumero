@@ -162,7 +162,7 @@ public class JuegoPersona {
     if (answer[0] == 4) {
       adivinanza = true;
     } else {
-      ingresarTexto(numeroIngresado + "\t\t\t\t" + answer[0] + " Bien y " + answer[1] + " regular");
+      ingresarTexto(numeroIngresado + "\t\t" + answer[0] + " Bien y " + answer[1] + " regular");
     }
 
     if (adivinanza) {
